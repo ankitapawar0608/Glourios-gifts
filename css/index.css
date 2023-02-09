@@ -1,0 +1,30 @@
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky; 
+    top: 0px;
+    background-color: #FF597B;
+    height: 70px;
+}
+
+#logo{
+
+
+}
+#logo img{
+    height: 59px;
+    margin: 3px 6px;
+    border-radius: 30px;
+    margin-left: 50px;
+}
+h1{
+    color: white;
+}
+
+.search-bar{
+    background-color: aliceblue;
+    margin: 22px;
+    font-size: 20px;
+    margin-left: 110px;
+    border-radius: 10px;
+}
