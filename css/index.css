@@ -5,6 +5,8 @@
     top: 0px;
     background-color: #FF597B;
     height: 70px;
+    margin: -5px;
+    margin-top: -2px;
     
 }
 #navbar-logo img {
@@ -57,10 +59,24 @@ h1 {
     margin-left: 300px;
     width: 500px;
 }
+
+
+
+
+/* CATEGORIES SECTION */
+
+
+
+
 .categories-container{
     
-    height: 80px;
-    position: relative;
+    height: 91px;
+    
+    margin-left: -10px;
+    background-color: ;
+    margin-top: 5px;
+    margin-left: -5px;
+    margin-right: -5px;
 
 }
 .categories-items-container{
@@ -68,8 +84,30 @@ h1 {
     border-radius: 5px;
     position: absolute;
     height: 50px;
+    padding-top: 21px;
+    padding-bottom: 4px;
     margin-top: 14px;
-    margin-left: 18px;
+    margin-left: 10px;
     width: 1490px;
 }
+.categories-items{
+ 
+    text-decoration: none;
+     background-color: red; 
+    margin-left: 90px;
+    /* padding-top: 22px; */
+    padding: 5px;
+    padding-left: 18px;
+    padding-right: 20px;
+    font-size: 25px;
+    color:black;
+
+}
+
+.categories-items:hover{
+    background-color: red;
+    border-radius: 20px;
+
+}
+
 

@@ -2,16 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap');
 
 footer{
-    background-color: #323e49;
+    background-color: black;
 }
 .footer-container-main{
     color: #ffffff;
 }
 .footer-logo{
-    height: 80px;
+    height: 70px;
     background-color: #e6c1c9;
     border: 1px solid #ff0037;
-    border-radius: 10%;
+    border-radius: 40px;
     margin-right: 20px;
 }
 .row{
