@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap');
+
+footer{
+    background-color: #323e49;
+}
+.footer-container-main{
+    color: #ffffff;
+}
+.footer-logo{
+    height: 80px;
+    background-color: #e6c1c9;
+    border: 1px solid #ff0037;
+    border-radius: 10%;
+    margin-right: 20px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer-containers{
+    width: 400px;
+    margin: 20px;
+    padding: 10px;
+
+}
+.footer-ul{
+    margin: 0;
+    padding: 0;
+}
+.footer-li{
+    font-family: 'Fragment Mono', monospace;
+    list-style: none;
+    padding: 5px;
+    margin: 10px;
+}
+.footer-p{
+    font-family: 'Fragment Mono', monospace;
+    padding-left: 10px
+}
+.foorte-logo-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer-h1{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 2px;
+}
+
+.footer-a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer-a:hover{
+  text-shadow: 0 0 1px  #ffffff ;
+  color: #e6c1c9;
+   transition: 0.05s;
+}
+.media-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.media-link-img{
+    margin-left: 50px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.copyrigh-sction{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Fragment Mono', monospace;
+    
+}
+
+
+
+@media only screen and (max-width: 968px) {
+    .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-containers{
+        width: 200px;
+        margin: 10px;
+        padding: 5px;
+    
+    }
+
+}
