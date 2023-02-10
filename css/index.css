@@ -1,8 +1,4 @@
-body{
-    margin: 0px;
-}
-
-#navbar {
+#navbar{
     display: flex;
     align-items: center;
     position: relative;
