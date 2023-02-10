@@ -1,0 +1,113 @@
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    background-color: #FF597B;
+    height: 70px;
+    margin: -5px;
+    margin-top: -2px;
+    
+}
+#navbar-logo img {
+    height: 59px;
+    margin: 3px 6px;
+    border-radius: 30px;
+    margin-left: 50px;
+}
+
+h1 {
+    color: white;
+}
+
+ .search-box {
+    
+    position: relative;
+}
+
+.search-box input {
+    width: 130%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: #f2f2f2;
+    border-radius: 30px;
+    color: gray;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-right: 40px;
+    text-align: center;
+    margin-left: 100px;
+
+}
+.nav-items{
+    text-decoration: none;
+    margin-left: 44px;
+    padding: 5px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: 25px;
+    color: white;
+    
+}
+.nav-items:hover{
+    background-color: #4d0000;
+    border-radius: 20px;
+    color:  #ffe6e6 ;
+}
+.nav-items-container{
+    margin-left: 300px;
+    width: 500px;
+}
+
+
+
+
+/* CATEGORIES SECTION */
+
+
+
+
+.categories-container{
+    
+    height: 91px;
+    
+    margin-left: -10px;
+    background-color: ;
+    margin-top: 5px;
+    margin-left: -5px;
+    margin-right: -5px;
+
+}
+.categories-items-container{
+    border: 1px solid #FF597B;
+    border-radius: 5px;
+    position: absolute;
+    height: 50px;
+    padding-top: 21px;
+    padding-bottom: 4px;
+    margin-top: 14px;
+    margin-left: 10px;
+    width: 1490px;
+}
+.categories-items{
+ 
+    text-decoration: none;
+     background-color: red; 
+    margin-left: 90px;
+    /* padding-top: 22px; */
+    padding: 5px;
+    padding-left: 18px;
+    padding-right: 20px;
+    font-size: 25px;
+    color:black;
+
+}
+
+.categories-items:hover{
+    background-color: red;
+    border-radius: 20px;
+
+}
+
+

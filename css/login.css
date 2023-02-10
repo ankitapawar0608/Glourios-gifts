@@ -1,0 +1,140 @@
+body
+{
+   
+	width: 100%;
+    background-color:white;
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+} 
+
+#login-form
+{
+    display:block;
+}
+
+.form-box
+{
+    width:380px;
+	height:440px;
+	position:relative;
+	margin:8% auto;
+    box-shadow: 1px 1px 3px 2px black;
+	background:#EEEEEE;
+	padding:10px;
+    overflow: hidden;
+}
+
+#login
+{
+	left:50px;
+}
+
+.input-group-login
+{
+	top: 150px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+
+.input-field
+{
+	width: 100%;
+	padding:10px 0;
+	margin:5px 0 10px 0;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: 1px solid #999;
+	outline:none;
+	background: transparent;
+    color:black;
+}
+
+.check-box
+{
+	margin: 30px 10px 34px 0;
+    
+}
+
+.submit-btn
+{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 18px;
+	background: #FF597B;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+	text-transform: uppercase;
+	font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#login-forget-password{
+    margin-left: 85px;
+    text-decoration: none;
+    color: black;
+    
+   
+ }
+/* mobile */
+@media screen and (min-width:600px) and (max-width:768px)
+{
+
+    body
+{
+   
+	width: 100%;
+    background-color:white;
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+} 
+
+.form-box
+{
+    width:380px;
+	height:440px;
+	position:relative;
+	margin:3% auto;
+    box-shadow: 1px 1px 3px 2px black;
+	background:#EEEEEE;
+	padding:10px;
+    overflow: hidden;
+}
+    
+
+}
+/* laptop */
+@media screen and (min-width:992px) and (max-width:1200px)
+{
+
+    body
+{
+	width: 100%;
+    background-color:white;
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+} 
+
+
+.form-box
+{
+    width:380px;
+	height:440px;
+	position:relative;
+	margin:3% auto;
+    box-shadow: 1px 1px 3px 2px black;
+	background:#EEEEEE;
+	padding:10px;
+    overflow: hidden;
+}
+    
+
+}

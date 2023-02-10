@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+    padding: 0px;
+	width: 100%;
+	background-color: white;
+	
+}
+.main{
+    height: 580px;
+    width: 400px;
+    margin-top: 140px;
+    margin-left: 38%;
+    text-align: center;
+    margin:8% auto;
+	background:#EEEEEE;
+	padding:1px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 2px black;
+}
+text{
+   
+    font-family:'Times New Roman', Times, serif;
+    color: beige;
+    font-size: 29px;
+    font-weight: bold;
+    margin-right: 90px;
+    
+}
+
+#form{
+    margin: 40px;
+}
+label{
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: black;
+}
+#name{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+
+}
+#submit{
+    width: 200px;
+    padding: 7px;
+    margin-top: 16px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    border-radius: 30px;
+    background-color: #FF597B;
+    columns: #fff;
+    cursor: pointer;
+    border: 1px solid rgba(255,255,255,0.3);
+    text-transform: uppercase;
+
+}
+
+.radio{
+   text-align: center;
+   padding-right: 10%;
+}
+
+/* mobile */
+@media screen and (min-width:600px) and (max-width:768px)
+{
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        background-color: white;
+        
+    }
+    .main{
+        height: 580px;
+        width: 400px;
+        margin-top: 140px;
+        margin-left: 38%;
+        text-align: center;
+        margin:8% auto;
+        background:#EEEEEE;
+        padding:1px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 3px 2px black;
+    }
+}
+
+/* laptop */
+@media screen and (min-width:992px) and (max-width:1200px)
+{
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        background-color:white;
+        
+    }
+    .main{
+        height: 580px;
+        width: 400px;
+        margin-top: 140px;
+        margin-left: 38%;
+        text-align: center;
+        margin:8% auto;
+        background:#EEEEEE;
+        padding:1px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 3px 2px black;
+    }
+
+}
