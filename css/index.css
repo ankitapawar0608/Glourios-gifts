@@ -9,6 +9,9 @@
     margin-top: -2px;
     
 }
+body{
+    margin: 0;
+}
 #navbar-logo img {
     height: 59px;
     margin: 3px 6px;
@@ -73,7 +76,6 @@ h1 {
     height: 91px;
     
     margin-left: -10px;
-    background-color: ;
     margin-top: 5px;
     margin-left: -5px;
     margin-right: -5px;

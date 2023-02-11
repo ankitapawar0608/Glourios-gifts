@@ -1,6 +1,9 @@
 h1{
     color: blueviolet;
 }
+body{
+    margin:0px;
+}
 .image
 {
 height:140px;
@@ -54,7 +57,7 @@ margin-top:20px;
 }
 .social-contact li:hover
 {
-    background-color:#e600e6;
+    background-color:#FF597B;
     transition: 1s;
     box-shadow:1px 1px 6px 5px rgb(127 59 177);
     
@@ -63,7 +66,7 @@ margin-top:20px;
 {
     border-radius: 30px;
     transition: 0.1s;
-    box-shadow: 1px 1px 5px 4px rgb(127 59 177);
+    box-shadow: 1px 1px 5px 4px #FF597B;
 }
 .card-container
 {
@@ -76,8 +79,7 @@ margin-top:20px;
 {
     text-align: center;
     font-size: 45px;
-    font-weight: bolder;
-}
+    font-weight: bolder;}
 .info
 {
     text-align: center;
