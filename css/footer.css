@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap');
-
 footer{
     background-color: black;
 }
@@ -75,6 +74,7 @@ footer{
     text-align: center;
     color: #ffffff;
     font-family: 'Fragment Mono', monospace;
+    padding-bottom: 10px;
     
 }
 

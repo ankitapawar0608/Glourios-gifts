@@ -1,0 +1,94 @@
+h1{
+    color: blueviolet;
+}
+body{
+    margin:0px;
+}
+.image
+{
+height:140px;
+width: 140px;
+border-radius: 50%;
+box-shadow: 0 0 4px 3px rgba(95, 94, 94, 0.767);
+align-items: center;
+border: 0.5px solid rgba(95, 94, 94, 0.767);;
+margin-top:20px;
+}
+.card1
+{
+    height: 420px;
+    width:320px;
+    box-shadow: 0 0 4px 3px rgba(95, 94, 94, 0.767);
+    border-radius: 7px;
+    margin: auto;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+    margin-top:50px;
+}
+.name
+{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+.social-media-img
+{
+    height:40px;
+    text-align: center;
+    align-items: center;
+
+    padding-top: 10px;
+}
+.social-contact li
+{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+    margin-top: 17px;
+    box-shadow: 0 0 3px 3px rgba(95, 94, 94, 0.767);
+    height:60px;
+    width: 60px;
+    align-items: center;
+    border-radius: 50px;
+    
+    
+
+}
+.social-contact li:hover
+{
+    background-color:#FF597B;
+    transition: 1s;
+    box-shadow:1px 1px 6px 5px rgb(127 59 177);
+    
+}
+.card1:hover
+{
+    border-radius: 30px;
+    transition: 0.1s;
+    box-shadow: 1px 1px 5px 4px #FF597B;
+}
+.card-container
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.heading
+{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bolder;}
+.info
+{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.size
+{
+    height:130px;
+    width:130px;
+}
+
