@@ -1,3 +1,7 @@
+body{
+    background-color: ;
+}
+
 #navbar{
     display: flex;
     align-items: center;
@@ -8,6 +12,9 @@
     margin: -5px;
     margin-top: -2px;
     
+}
+body{
+    margin: 0;
 }
 #navbar-logo img {
     height: 59px;
@@ -73,7 +80,6 @@ h1 {
     height: 91px;
     
     margin-left: -10px;
-    background-color: ;
     margin-top: 5px;
     margin-left: -5px;
     margin-right: -5px;
@@ -81,20 +87,23 @@ h1 {
 }
 .categories-items-container{
     border: 1px solid #FF597B;
+    background-color: #f2f2f2;
     border-radius: 5px;
     position: absolute;
     height: 50px;
     padding-top: 21px;
     padding-bottom: 4px;
     margin-top: 14px;
-    margin-left: 10px;
-    width: 1490px;
+    margin-left: 45px;
+    margin-right: 100px;
+    width: 1420px;
+    
 }
 .categories-items{
  
     text-decoration: none;
-     background-color: red; 
-    margin-left: 90px;
+     background-color: ; 
+    margin-left: 80px;
     /* padding-top: 22px; */
     padding: 5px;
     padding-left: 18px;
@@ -105,9 +114,36 @@ h1 {
 }
 
 .categories-items:hover{
-    background-color: red;
+    background-color: #FF597B;
     border-radius: 20px;
+    color: #f2f2f2;
+}
+
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height: 658px;
+    justify-content: center;
+    align-items: center;
 
 }
+
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('./../images/katie-goertzen-6oAWnDGR4JY-unsplash\ \(1\).jpg') no-repeat center center/cover;
+    height: 530px;
+    top:180px;
+    left:0px;
+    margin-left: 45px;
+    margin-right: 100px;
+    width: 1420px;
+    z-index: -1;
+    opacity:1;
+    border-radius: 5px;
+}
+ 
 
 
