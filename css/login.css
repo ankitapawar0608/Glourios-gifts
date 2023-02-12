@@ -15,14 +15,20 @@ body
 
 .form-box
 {
-    width:380px;
+    width:650px;
 	height:440px;
 	position:relative;
 	margin:8% auto;
-    box-shadow: 1px 1px 3px 2px black;
-	background:#EEEEEE;
+    box-shadow: 0 0 4px 3px rgba(95, 94, 94, 0.767);
+	background:white;
 	padding:10px;
     overflow: hidden;
+}
+h2{
+	font-size: 35px;
+}
+p{
+	font-size: 20px;
 }
 
 #login
@@ -32,7 +38,7 @@ body
 
 .input-group-login
 {
-	top: 150px;
+	top: 120px;
 	position:absolute;
 	width:280px;
 	transition:.5s;
@@ -40,9 +46,13 @@ body
 
 .input-field
 {
-	width: 100%;
-	padding:10px 0;
-	margin:5px 0 10px 0;
+	width: 450px;
+	padding:10px;
+	/* margin:5px 0 10px 0; */
+	font-size: 25px;
+	margin-top: 10px;
+	margin-left: 60px;
+	margin-right: auto;
 	border-left:0;
 	border-top:0;
 	border-right:0;
@@ -52,38 +62,50 @@ body
     color:black;
 }
 
+
 .check-box
 {
-	margin: 30px 10px 34px 0;
-    
+	margin-top: 30px;
+	margin-left:60px;   
 }
+span{
+	font-size: 20px;
+}
+
 
 .submit-btn
 {
-	width: 85%;
+	width: 500px;
 	padding: 10px 30px;
 	cursor: pointer;
 	display: block;
-    margin-left: auto;
+    margin-left: 50px;
     margin-right: auto;
     margin-bottom: 18px;
-	background: #FF597B;
+	background:white;
 	border: 0;
-	outline: none;
 	border-radius: 30px;
+	box-shadow:1px 1px 1px 1px black;
 	text-transform: uppercase;
 	font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
 }
+.submit-btn:hover{
+	background-color:rgb(231, 31, 94);
+    color:white;
+    transition: 2s;
+}
+
 #login-forget-password{
-    margin-left: 85px;
+	font-size: 20px;
+    margin-left: 60px;
     text-decoration: none;
     color: black;
     
    
  }
 /* mobile */
-@media screen and (min-width:600px) and (max-width:768px)
+@media screen and (min-width:450px) and (max-width:768px)
 {
 
     body
@@ -98,20 +120,58 @@ body
 
 .form-box
 {
-    width:380px;
+    width:500px;
 	height:440px;
 	position:relative;
 	margin:3% auto;
-    box-shadow: 1px 1px 3px 2px black;
-	background:#EEEEEE;
+    box-shadow: 0 0 4px 3px rgba(95, 94, 94, 0.767);
+	background:white;
 	padding:10px;
     overflow: hidden;
 }
+
+.input-field
+{
+	width: 300px;
+	padding:10px;
+	/* margin:5px 0 10px 0; */
+	font-size: 25px;
+	margin-top: 10px;
+	margin-left: 60px;
+	margin-right: auto;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: 1px solid #999;
+	outline:none;
+	background: transparent;
+    color:black;
+}
+
+
+.submit-btn
+{
+	width: 350px;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-bottom: 18px;
+	background:white;
+	border: 0;
+	border-radius: 30px;
+	box-shadow:1px 1px 1px 1px black;
+	text-transform: uppercase;
+	font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
     
 
 }
 /* laptop */
-@media screen and (min-width:992px) and (max-width:1200px)
+@media screen and (min-width:768px) and (max-width:1200px)
 {
 
     body
@@ -122,19 +182,19 @@ body
 	background-size: cover;
 	position: absolute;
 } 
-
-
 .form-box
 {
-    width:380px;
+    width:650px;
 	height:440px;
 	position:relative;
-	margin:3% auto;
-    box-shadow: 1px 1px 3px 2px black;
-	background:#EEEEEE;
+	margin:8% auto;
+    box-shadow: 0 0 4px 3px rgba(95, 94, 94, 0.767);
+	background:white;
 	padding:10px;
     overflow: hidden;
 }
-    
+
+
+
 
 }
