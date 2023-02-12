@@ -3,7 +3,9 @@ h1{
 }
 body{
     margin:0px;
+    background-color: #ffe6e6;
 }
+
 .image
 {
 height:140px;
@@ -24,6 +26,8 @@ margin-top:20px;
     text-align: center;
     transition: 0.5s ease-in-out;
     margin-top:50px;
+    background-color: aliceblue;
+    color: #800000;
 }
 .name
 {
@@ -79,7 +83,9 @@ margin-top:20px;
 {
     text-align: center;
     font-size: 45px;
-    font-weight: bolder;}
+    font-weight: bolder;
+    color: #800000;
+}
 .info
 {
     text-align: center;

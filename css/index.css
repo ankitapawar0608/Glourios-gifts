@@ -11,6 +11,8 @@ body{
     height: 70px;
     margin: -5px;
     margin-top: -2px;
+    width: 1500px;
+    font-family: 'Bree Serif', serif;
     
 }
 body{
@@ -21,10 +23,12 @@ body{
     margin: 3px 6px;
     border-radius: 30px;
     margin-left: 50px;
+    
 }
 
 h1 {
     color: white;
+    
 }
 
  .search-box {
@@ -45,6 +49,7 @@ h1 {
     padding-right: 40px;
     text-align: center;
     margin-left: 100px;
+    font-family: 'Bree Serif', serif;
 
 }
 .nav-items{
@@ -55,6 +60,7 @@ h1 {
     padding-right: 18px;
     font-size: 25px;
     color: white;
+    font-family: 'Bree Serif', serif;
     
 }
 .nav-items:hover{
@@ -103,14 +109,14 @@ h1 {
  
     text-decoration: none;
      background-color: ; 
-    margin-left: 80px;
+    margin-left: 70px;
     /* padding-top: 22px; */
     padding: 5px;
     padding-left: 18px;
     padding-right: 20px;
     font-size: 25px;
     color:black;
-
+font-family: 'Bree Serif', serif;
 }
 
 .categories-items:hover{
@@ -134,7 +140,7 @@ h1 {
     content: "";
     position: absolute;
     background: url('./../images/katie-goertzen-6oAWnDGR4JY-unsplash\ \(1\).jpg') no-repeat center center/cover;
-    height: 530px;
+    height: 150vh;
     top:180px;
     left:0px;
     margin-left: 45px;
