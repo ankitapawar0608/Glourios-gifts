@@ -125,12 +125,13 @@ font-family: 'Bree Serif', serif;
     color: #f2f2f2;
 }
 
+/* HOME SECTION */
 
 #home{
     display: flex;
     flex-direction: column;
     padding:3px 200px;
-    height: 658px;
+    height: 600px;
     justify-content: center;
     align-items: center;
 
@@ -139,9 +140,9 @@ font-family: 'Bree Serif', serif;
 #home::before{
     content: "";
     position: absolute;
-    background: url('./../images/katie-goertzen-6oAWnDGR4JY-unsplash\ \(1\).jpg') no-repeat center center/cover;
-    height: 150vh;
-    top:180px;
+    background: url('./../images/banner6.jpg') no-repeat center center/cover;
+    height: 80vh;
+    top:170px;
     left:0px;
     margin-left: 45px;
     margin-right: 100px;
@@ -150,6 +151,51 @@ font-family: 'Bree Serif', serif;
     opacity:1;
     border-radius: 5px;
 }
- 
 
+/*  UNIQUE GIFTS SECTION  */
+
+
+.unique-gift-container{
+    margin-top: 15px;
+    height: 330px;
+    background-color:#4d0000 ;
+
+}
+.unique-gift-text-img-container{
+    height: 200px;
+    background-color:;
+    width: 1000px;
+   margin-left: 400px;
+    display: flex;
+    
+}
+.unique-gift-img{
+    height: 189px;
+    width: 196px;
+}
+
+ .unique-gift-text{
+   background-color: aqua;
+    height: 100px;
+    color: black;
+    margin-top: -17px;
+    font-size: 20px;
+    margin-left: 11px;
+    width: 700px;
+    align-self: center;
+}
+
+/* .unique-gift-text2{
+   background-color: beige;
+    height: 100px;
+    color: #f2f2f2;
+    margin-top: -10px;
+    font-size: 20px;
+    margin-left: 200px;
+} */ */
+ 
+.unique-gift-container-bigimage{
+    
+    width:1520px ;
+}
 
