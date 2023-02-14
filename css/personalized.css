@@ -1,0 +1,65 @@
+.container-holder{
+    background-color: white;
+    padding-left: 30px;
+
+}
+
+.Personalized-Gift-container{
+
+  background-color: wheat;
+  color:black;
+  height:270px;
+  width: 200px; 
+  margin:10px ;
+  padding: 10px;
+  box-shadow: 3px 3px 1px 2px #ffcce0;           
+  border-radius: 10px;
+  border-style: double;
+  border-color:#e6005C;
+  display: inline-block;
+  font-size: 15px;
+  border-width: 2px;
+  
+}
+
+.gift-images{
+    
+    display: block;
+      border-radius: 5px;
+      margin: auto;
+      height: 150px;
+      
+    
+    }
+    .gift-title{
+        text-align: center;
+      font-size:15px;
+    }
+
+    .gift-price{
+        text-align: center;
+      font-size: 18px;
+    }
+    .button{
+
+        background-color:#e6005c;
+        color:white;
+        font-size: 15px;
+        padding: 5px;
+        border-radius: 5px;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+        font-weight: 3px;
+        display: block;
+        width: max-content;
+        margin-bottom: 10px;
+        
+      }
+
+    .heading{
+        text-align: center;
+        font-size: 30px;
+        color: white;
+        background-color: #e6005C;
+    }
