@@ -1,5 +1,5 @@
 body{
-    background-color: ;
+    background-color:white ;
 }
 
 #navbar{
@@ -73,12 +73,7 @@ h1 {
     width: 500px;
 }
 
-
-
-
 /* CATEGORIES SECTION */
-
-
 
 
 .categories-container{
@@ -140,7 +135,7 @@ font-family: 'Bree Serif', serif;
 #home::before{
     content: "";
     position: absolute;
-    background: url('./../images/banner6.jpg') no-repeat center center/cover;
+    background: url('./../images/banner5.jpg') no-repeat center center/cover;
     height: 80vh;
     top:170px;
     left:0px;
@@ -152,13 +147,14 @@ font-family: 'Bree Serif', serif;
     border-radius: 5px;
 }
 
+
 /*  UNIQUE GIFTS SECTION  */
 
 
-.unique-gift-container{
+/* .unique-gift-container{
     margin-top: 15px;
     height: 330px;
-    background-color:#4d0000 ;
+    background-color: ;
 
 }
 .unique-gift-text-img-container{
@@ -172,30 +168,64 @@ font-family: 'Bree Serif', serif;
 .unique-gift-img{
     height: 189px;
     width: 196px;
+    
 }
 
  .unique-gift-text{
-   background-color: aqua;
+   background-color: ;
     height: 100px;
     color: black;
-    margin-top: -17px;
-    font-size: 20px;
+    margin-top: 32px;
+    font-size: 30px;
     margin-left: 11px;
     width: 700px;
     align-self: center;
+    
 }
 
-/* .unique-gift-text2{
-   background-color: beige;
-    height: 100px;
-    color: #f2f2f2;
-    margin-top: -10px;
-    font-size: 20px;
-    margin-left: 200px;
-} */ */
+
+unique-gift-text2{
+    
+
+}
  
 .unique-gift-container-bigimage{
     
     width:1520px ;
+} */
+
+.unique-gift-container-bigimage{
+    
+    width:1520px ;
+    margin-top: 22px;
 }
 
+ /* TRENDING GIFTS */
+ 
+ .trending-gifts-container{
+  background-color: #f2f2f2;
+ }
+
+ .trending-gifts-texts{
+    margin-left: 45px;
+    margin-top: 22px;
+    color: #FF597B;
+ }
+ 
+ .trending-gifts-text1{
+    font-size: 40px;
+
+ }
+ .trending-gifts-text2{
+  font-size: 20px;
+  color: gray;
+ }
+  
+ .same-day-delivery{
+    margin-top: 22px;
+    margin-left: 45px;
+    font-size:20px;
+ }
+ 
+
+ 
