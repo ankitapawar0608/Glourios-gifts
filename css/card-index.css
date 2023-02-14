@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap');
+body{
+    margin: 0;
+    background-color: #f8f5f7;
+}
+.home-display-card-container-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+ 
+}
+.home-display-card{
+    background-color: #ffff;
+    margin: 20px;   
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0 #ffffff;
+    border: 1px solid #dbd1d1;
+}
+.home-display-card:hover{
+    border: 1px solid #f8dbfc;
+    box-shadow: 0 0 20px 0 #f8dbfc;
+    transition: 0.05s;
+}
+.home-display-card-img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px 20px 0 0 ;
+}
+.home-displal-card-title{
+    text-align: center;
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.home-displal-card-button{
+     margin: 20px;
+    text-align: center;
+}
+.home-display-card-link{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Fragment Mono', monospace;
+    border: 1px solid #ebebeb;
+    padding: 5px;
+    border-radius: 5px;
+}
+.home-display-card-link:hover{
+    border: 1px solid #cecece;
+    box-shadow:  0 0 10px 0 #f8dbfc;
+    
+}
+
