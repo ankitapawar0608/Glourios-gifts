@@ -1,0 +1,68 @@
+
+.birthday-gifts-title
+{
+    margin-top: 10px;
+    font-size: 25px;
+    background-color: #F9B5D0;
+    color: black;
+    display: block;
+    text-align: center;
+    
+
+}
+.birthday-container
+{
+margin-top: 25px;
+background-color: rgb(217, 242, 242);
+display: flex;
+flex-direction: row;
+justify-content:start;
+align-items: center;
+
+}
+.birthday-img-container
+{
+    height: 400px;
+    width: 340px;
+    border: solid 5px #FF597B;
+    border-radius: 10px;
+    box-shadow: #FF597B 3px;
+    margin: 15px;
+    cursor: pointer;
+
+}
+.birthday-img-container:hover
+{
+    box-shadow:2px 10px 10px 2px #e82d53;
+
+}
+.images
+{
+height: 340px;
+width: 340px;
+}
+
+.gift-name
+{
+    font-size: 20px;
+    color: rgb(64, 2, 125);
+    background-color: #FF8E9E;
+    height: 30px;
+    text-align: center;
+}
+.BuyNow{
+     margin-left: 100px;
+     margin-right: 100px;
+     border: black solid 3px;
+    font-size: 15px;
+    color: rgb(25, 24, 25);
+    background-color:white;
+    height: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+.BuyNow:hover{
+    
+   background-color:rgb(248, 101, 101);
+   
+}
