@@ -1,3 +1,7 @@
+body{
+    background-color:white ;
+}
+
 #navbar{
     display: flex;
     align-items: center;
@@ -7,17 +11,24 @@
     height: 70px;
     margin: -5px;
     margin-top: -2px;
+    width: 1500px;
+    font-family: 'Bree Serif', serif;
     
+}
+body{
+    margin: 0;
 }
 #navbar-logo img {
     height: 59px;
     margin: 3px 6px;
     border-radius: 30px;
     margin-left: 50px;
+    
 }
 
 h1 {
     color: white;
+    
 }
 
  .search-box {
@@ -38,6 +49,7 @@ h1 {
     padding-right: 40px;
     text-align: center;
     margin-left: 100px;
+    font-family: 'Bree Serif', serif;
 
 }
 .nav-items{
@@ -48,6 +60,7 @@ h1 {
     padding-right: 18px;
     font-size: 25px;
     color: white;
+    font-family: 'Bree Serif', serif;
     
 }
 .nav-items:hover{
@@ -60,12 +73,7 @@ h1 {
     width: 500px;
 }
 
-
-
-
 /* CATEGORIES SECTION */
-
-
 
 
 .categories-container{
@@ -73,7 +81,6 @@ h1 {
     height: 91px;
     
     margin-left: -10px;
-    background-color: ;
     margin-top: 5px;
     margin-left: -5px;
     margin-right: -5px;
@@ -81,33 +88,144 @@ h1 {
 }
 .categories-items-container{
     border: 1px solid #FF597B;
+    background-color: #f2f2f2;
     border-radius: 5px;
     position: absolute;
     height: 50px;
     padding-top: 21px;
     padding-bottom: 4px;
     margin-top: 14px;
-    margin-left: 10px;
-    width: 1490px;
+    margin-left: 45px;
+    margin-right: 100px;
+    width: 1420px;
+    
 }
 .categories-items{
  
     text-decoration: none;
-     background-color: red; 
-    margin-left: 90px;
+     background-color: ; 
+    margin-left: 70px;
     /* padding-top: 22px; */
     padding: 5px;
     padding-left: 18px;
     padding-right: 20px;
     font-size: 25px;
     color:black;
-
+font-family: 'Bree Serif', serif;
 }
 
 .categories-items:hover{
-    background-color: red;
+    background-color: #FF597B;
     border-radius: 20px;
+    color: #f2f2f2;
+}
+
+/* HOME SECTION */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
 
 }
 
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('./../images/banner5.jpg') no-repeat center center/cover;
+    height: 80vh;
+    top:170px;
+    left:0px;
+    margin-left: 45px;
+    margin-right: 100px;
+    width: 1420px;
+    z-index: -1;
+    opacity:1;
+    border-radius: 5px;
+}
 
+
+/*  UNIQUE GIFTS SECTION  */
+
+
+/* .unique-gift-container{
+    margin-top: 15px;
+    height: 330px;
+    background-color: ;
+
+}
+.unique-gift-text-img-container{
+    height: 200px;
+    background-color:;
+    width: 1000px;
+   margin-left: 400px;
+    display: flex;
+    
+}
+.unique-gift-img{
+    height: 189px;
+    width: 196px;
+    
+}
+
+ .unique-gift-text{
+   background-color: ;
+    height: 100px;
+    color: black;
+    margin-top: 32px;
+    font-size: 30px;
+    margin-left: 11px;
+    width: 700px;
+    align-self: center;
+    
+}
+
+
+unique-gift-text2{
+    
+
+}
+ 
+.unique-gift-container-bigimage{
+    
+    width:1520px ;
+} */
+
+.unique-gift-container-bigimage{
+    
+    width:1520px ;
+    margin-top: 22px;
+}
+
+ /* TRENDING GIFTS */
+ 
+ .trending-gifts-container{
+  background-color: #f2f2f2;
+ }
+
+ .trending-gifts-texts{
+    margin-left: 45px;
+    margin-top: 22px;
+    color: #FF597B;
+ }
+ 
+ .trending-gifts-text1{
+    font-size: 40px;
+
+ }
+ .trending-gifts-text2{
+  font-size: 20px;
+  color: gray;
+ }
+  
+ .same-day-delivery{
+    margin-top: 22px;
+    margin-left: 45px;
+    font-size:20px;
+ }
+ 
+
+ 
