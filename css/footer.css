@@ -77,6 +77,19 @@ footer{
 .media-section-img{
     margin-left: 20px;
     margin-right: 20px;
+    cursor: pointer;
+}
+.media-img-yt:hover{
+    box-shadow: 0 0 5px 0 #ffffff ;
+    border-radius: 15px;
+}
+.media-img-insta:hover{
+    box-shadow: 0 0 5px 0 #ffffff ;
+    border-radius: 10px;
+}
+.media-img-git:hover{
+    box-shadow: 0 0 5px 0 #ffffff ;
+    border-radius: 100px;
 }
 .contributors-link-container-main{
     display: flex;
@@ -114,6 +127,10 @@ footer{
     color: #e6c1c9;
      transition: 0.05s;
   }
+.footer-link-img{
+    height: 15px;
+    margin-right: 10px;
+}
 @media only screen and (max-width: 968px) {
     .row{
         display: flex;
