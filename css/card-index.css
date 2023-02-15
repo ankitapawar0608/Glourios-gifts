@@ -10,8 +10,10 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     padding: 30px;
+   
  
 }
+
 .home-display-card{
     background-color: #ffff;
     margin: 20px;   

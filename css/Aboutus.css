@@ -20,7 +20,7 @@ margin-top:20px;
 {
     height: 420px;
     width:320px;
-    box-shadow: 0 0 4px 3px rgba(95, 94, 94, 0.767);
+    box-shadow: 0 0 4px 3px rgba(226, 218, 218, 0.767);
     border-radius: 7px;
     margin: auto;
     text-align: center;
@@ -70,7 +70,7 @@ margin-top:20px;
 {
     border-radius: 30px;
     transition: 0.1s;
-    box-shadow: 1px 1px 5px 4px #FF597B;
+    box-shadow: 1px 1px 5px 4px #aa838b;
 }
 .card-container
 {
