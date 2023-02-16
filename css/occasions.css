@@ -1,0 +1,64 @@
+.heading{
+    background-color: #df043f;
+    text-align: center;
+    }
+    .cardcontener{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .Occasioncard{
+    background-color: #ffcce0;
+    height: 420px;
+    width: 400px;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 3px;
+    display: inline-block;
+    border-radius: 10px;
+    border: 2px solid #d20d5c;
+    }
+    
+
+    .Occasionc-img{
+   display: block;
+   border-radius: 5px;
+   margin: auto;
+   height: 300px;
+   width: 300px;
+    }
+    .Occasioncardtitle{
+   text-align: center;
+      font-size:15px;
+    }
+    .button{
+        display: block;
+       margin-left: auto;
+     margin-right: auto;
+     background-color: #e6005c;
+     font-size: 20px;
+     margin-top: 5px;
+     margin-bottom: 5px;
+     width: 200px;
+     padding: 10px;
+     border-radius: 5px;
+     color: white;
+
+     
+    }
+    .button:hover{
+    color: pink;
+    background-color: palevioletred;
+    }
+    .rupees{
+        display: flex;
+     margin-left: auto;
+     flex-direction: row;
+     justify-content: space-evenly;
+     text-align: center;
+     font-size: 15px;
+     color: black;
+
+    }
