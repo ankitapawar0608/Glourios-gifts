@@ -1,7 +1,6 @@
-.mar-tag {
+marquee{
     padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 12px;
+    
     background-color: rgb(209, 1, 56);
     color: aliceblue;
     font-size: 30px;
@@ -9,12 +8,34 @@
 }
 
 
-.baground-img {
+/* .baground-img {
     height: 260px;
     width: 1519px;
 
 
+} */
+#valentine{
+    
+    height: 600px;
+    
+
 }
+
+#valentine::before{
+    content: "";
+    position: absolute;
+    background: url('./../images/send-love.jpg') no-repeat center center/cover;
+    height: 60vh;
+    top:350px;
+    left:0px;
+    
+    margin: 0px;
+    width: 1490px;
+    z-index: -1;
+    opacity:1;
+    border-radius: 5px;
+}
+
 
 .valentine-categories-container {
     display: flex;
@@ -22,7 +43,6 @@
 
 
 }
-
 .valentine-categories-card {
     background-color: #f4ebef;
     height: 350px;
@@ -38,13 +58,12 @@
 
 }
 
-valentine-categories-card:hover {
+.valentine-categories-card:hover {
     box-shadow: 2px 8px 8px 2px #eb1850;
    border:2px solid #d20d5c;
     border-radius: 17px;
   
 }
-
 .valentine-categories-card-img {
     width: 250px;
     height: 180px;
@@ -62,10 +81,9 @@ valentine-categories-card:hover {
 .valentine-categories-title {
 
     text-align: center;
-    font size: 30px;
+    font-size: 30px;
     color: red;
 }
-
 .button {
 
     display: block;
@@ -86,8 +104,6 @@ valentine-categories-card:hover {
     border-radius: 15px;
     color: aliceblue;
 }
-
-
 .days {
     display: flex;
     margin-left: auto;
@@ -95,69 +111,70 @@ valentine-categories-card:hover {
     flex-direction: row;
     justify-content: space-evenly;
     text-align: center;
-    font size: 15px;
+    font-size: 15px;
     color: black;
 }
 
 
 .card-adjustment{
    height: 100vh;
+
    display: flex;
    justify-content: center;
    align-items: center;
    font-family: "raleway",Arial ,sams-serif;
    background: rgb(178, 218, 229);
 }
-
 .card{
-   position:relative;
-   width:300px;
-   height:220px;
-   border-radius: 10px;
-   box-shadow: 2px 5px 20px rgba(48, 5, 5, 0.5);
-   transition: 0.3s;
-   padding: 30px 50px;
-   background:#fff;
-   cursor: pointer;
-   margin-right: 30px;
-
-}
-.card:hover{
-   height: 320px;
-   box-shadow:20px  30px 50px 30px rgb(249, 178, 190) inset;
+    position:relative;
+    width:300px;
+    height:220px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 20px rgba(48, 5, 5, 0.5);
+    transition: 0.3s;
+    padding: 30px 50px;
+    background:#fff;
+    cursor: pointer;
+    margin-right: 30px;
+ 
+ }
+ .card:hover{
+    height: 430px;
+    box-shadow:20px  30px 50px 30px rgb(249, 178, 190) inset;
+    
+ }
+  .valentineimgbox{
+    position: relative;
+    width:100px;
+    height: 100px;
+    transform: translateY(-80px);
+    z-index: 99;
    
-}
-.imgbox{
-   position: relative;
-   width:100px;
-   height: 100px;
-   transform: translateY(-80px);
-   z-index: 99;
-  
-}
-img{
-   width:300px;
-   border-radius: 10px;
-   box-shadow: 1px 2px 5px gray;
-}
-.content{
-   padding: 10px 20px;
-   text-align: center;
-   transform: translateY(-20px);
-   opacity: 0;
-   transition: 0.3s;
+ }
+ .vimg{
+    width:300px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px gray;
+ } 
 
-}
-.card:hover > .content{
- opacity: 1;
- transform: translateY(-5px);
-
-}
-.content h2{
-   color:rgb(209, 10, 10)
-}
-.trending-gifts-texts{
-   margin-left: 45px;
-   margin-top: 22px;
-   color: #FF597B;
-}
+ .content{
+    padding: 10px 20px;
+    text-align: center;
+    transform: translateY(-20px);
+    opacity: 0;
+    transition: 0.3s;
+ 
+ }
+ .card:hover > .content{
+  opacity: 1;
+  transform: translateY(-5px);
+ 
+ }
+ .content h2{
+    color:rgb(209, 10, 10)
+ }
+ .trending-gifts-texts{
+    margin-left: 45px;
+    margin-top: 22px;
+    color: #FF597B;
+ }
