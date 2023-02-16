@@ -1,0 +1,163 @@
+.mar-tag {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    background-color: rgb(209, 1, 56);
+    color: aliceblue;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.baground-img {
+    height: 260px;
+    width: 1519px;
+
+
+}
+
+.valentine-categories-container {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.valentine-categories-card {
+    background-color: #f4ebef;
+    height: 350px;
+    width: 300px;
+    margin: 40px;
+    padding: 10px;
+
+    border-radius: 15px;
+    display: inline-block;
+    box-shadow: 3px 3px 10px 3px;
+    border: 2px solid #d20d5c;
+
+
+}
+
+valentine-categories-card:hover {
+    box-shadow: 2px 8px 8px 2px #eb1850;
+   border:2px solid #d20d5c;
+    border-radius: 17px;
+  
+}
+
+.valentine-categories-card-img {
+    width: 250px;
+    height: 180px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-sizing: content-box;
+    text-align: center;
+    box-shadow: 2px 3px 4px 2px rgb(83, 78, 78);
+    border-radius: 10px;
+}
+
+.valentine-categories-title {
+
+    text-align: center;
+    font size: 30px;
+    color: red;
+}
+
+.button {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid whitesmoke;
+    background-color: #ff597B;
+    font-size: 23px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+.button:hover {
+    border: 2px solid rgb(18, 65, 18);
+    background-color: #d4053c;
+    border-radius: 15px;
+    color: aliceblue;
+}
+
+
+.days {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    font size: 15px;
+    color: black;
+}
+
+
+.card-adjustment{
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: "raleway",Arial ,sams-serif;
+   background: rgb(178, 218, 229);
+}
+
+.card{
+   position:relative;
+   width:300px;
+   height:220px;
+   border-radius: 10px;
+   box-shadow: 2px 5px 20px rgba(48, 5, 5, 0.5);
+   transition: 0.3s;
+   padding: 30px 50px;
+   background:#fff;
+   cursor: pointer;
+   margin-right: 30px;
+
+}
+.card:hover{
+   height: 320px;
+   box-shadow:20px  30px 50px 30px rgb(249, 178, 190) inset;
+   
+}
+.imgbox{
+   position: relative;
+   width:100px;
+   height: 100px;
+   transform: translateY(-80px);
+   z-index: 99;
+  
+}
+img{
+   width:300px;
+   border-radius: 10px;
+   box-shadow: 1px 2px 5px gray;
+}
+.content{
+   padding: 10px 20px;
+   text-align: center;
+   transform: translateY(-20px);
+   opacity: 0;
+   transition: 0.3s;
+
+}
+.card:hover > .content{
+ opacity: 1;
+ transform: translateY(-5px);
+
+}
+.content h2{
+   color:rgb(209, 10, 10)
+}
+.trending-gifts-texts{
+   margin-left: 45px;
+   margin-top: 22px;
+   color: #FF597B;
+}
