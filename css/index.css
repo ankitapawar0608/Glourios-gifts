@@ -1,3 +1,7 @@
+body{
+    background-color:white ;
+}
+
 #navbar{
     display: flex;
     align-items: center;
@@ -7,6 +11,8 @@
     height: 70px;
     margin: -5px;
     margin-top: -2px;
+    width: 1500px;
+    font-family: 'Bree Serif', serif;
     
 }
 body{
@@ -17,10 +23,12 @@ body{
     margin: 3px 6px;
     border-radius: 30px;
     margin-left: 50px;
+    
 }
 
 h1 {
     color: white;
+    
 }
 
  .search-box {
@@ -41,6 +49,7 @@ h1 {
     padding-right: 40px;
     text-align: center;
     margin-left: 100px;
+    font-family: 'Bree Serif', serif;
 
 }
 .nav-items{
@@ -51,24 +60,22 @@ h1 {
     padding-right: 18px;
     font-size: 25px;
     color: white;
+    font-family: 'Bree Serif', serif;
+    
     
 }
 .nav-items:hover{
     background-color: #4d0000;
     border-radius: 20px;
     color:  #ffe6e6 ;
+    transition: all 0.4s ease 0s;
 }
 .nav-items-container{
     margin-left: 300px;
     width: 500px;
 }
 
-
-
-
 /* CATEGORIES SECTION */
-
-
 
 
 .categories-container{
@@ -83,33 +90,220 @@ h1 {
 }
 .categories-items-container{
     border: 1px solid #FF597B;
+    background-color: #f2f2f2;
     border-radius: 5px;
     position: absolute;
     height: 50px;
     padding-top: 21px;
     padding-bottom: 4px;
     margin-top: 14px;
-    margin-left: 10px;
-    width: 1490px;
+    margin-left: 45px;
+    margin-right: 100px;
+    width: 1420px;
+    
 }
 .categories-items{
  
     text-decoration: none;
-     background-color: red; 
-    margin-left: 90px;
+     background-color: ; 
+    margin-left: 37px;
     /* padding-top: 22px; */
     padding: 5px;
     padding-left: 18px;
     padding-right: 20px;
     font-size: 25px;
     color:black;
-
+font-family: 'Bree Serif', serif;
 }
 
 .categories-items:hover{
-    background-color: red;
+    background-color: #FF597B;
     border-radius: 20px;
+    color: #f2f2f2;
+}
+
+/* HOME SECTION */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
 
 }
 
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('./../images/banner5.jpg') no-repeat center center/cover;
+    height: 80vh;
+    top:170px;
+    left:0px;
+    margin-left: 45px;
+    margin-right: 100px;
+    width: 1420px;
+    z-index: -1;
+    opacity:1;
+    border-radius: 5px;
+}
 
+
+/*  UNIQUE GIFTS SECTION  */
+
+
+/* .unique-gift-container{
+    margin-top: 15px;
+    height: 330px;
+    background-color: ;
+
+}
+.unique-gift-text-img-container{
+    height: 200px;
+    background-color:;
+    width: 1000px;
+   margin-left: 400px;
+    display: flex;
+    
+}
+.unique-gift-img{
+    height: 189px;
+    width: 196px;
+    
+}
+
+ .unique-gift-text{
+   background-color: ;
+    height: 100px;
+    color: black;
+    margin-top: 32px;
+    font-size: 30px;
+    margin-left: 11px;
+    width: 700px;
+    align-self: center;
+    
+}
+
+
+unique-gift-text2{
+    
+
+}
+ 
+.unique-gift-container-bigimage{
+    
+    width:1520px ;
+} */
+
+.unique-gift-container-bigimage{
+    
+    width:1520px ;
+    margin-top: 22px;
+}
+
+ /* TRENDING GIFTS */
+ 
+ .trending-gifts-container{
+  background-color: #f2f2f2;
+  height: 430px;
+ }
+
+ .trending-gifts-texts{
+    margin-left: 45px;
+    margin-top: 22px;
+    color: #FF597B;
+ }
+ 
+ .trending-gifts-text1{
+    font-size: 40px;
+    font-family: 'Bree Serif', serif;
+
+ }
+ .trending-gifts-text2{
+  font-size: 20px;
+  color: gray;
+  font-family: 'Bree Serif', serif;
+ }
+  
+ .same-day-delivery{
+    margin-top: 22px;
+    margin-left: 45px;
+    font-size:20px;
+    font-family: 'Bree Serif', serif;
+ }
+ .trending-gifts-img-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    height: 230px;
+    
+}
+.trending-gifts-img{
+
+    height: 220px;
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.trending-gifts-text-container{
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    height: 44px;
+    
+}
+.trending-gifts-text-container-text{
+    margin-top: 0px;
+    height: 20px;
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+   font-size: 20px;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    
+    
+
+}
+
+.trending-gifts-img1{
+    margin-top: 55px;
+    height: 260px;
+    width: 265px;
+    margin: 4px;
+    padding: 10px;
+    border-radius:  30px 30px 0 0;
+}
+
+.trending-gifts-img1:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.4s ease 0s;
+}
+ 
+/* ROMANTIC GIFTS SECTION */
+ .romantic-gift-container{
+    margin-top: 30px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+ }
+
+ .romantic-gift-container-img1{
+    margin-top: 30px;
+    height:460px ;
+    width: 700px;
+    border-radius: 20px 0 0 20px  ;
+
+ }
+ .romantic-gift-container-img2{
+    margin-top: 30px;
+    height:460px ;
+    width: 700px;
+    border-radius: 0 20px 20px 0;
+
+ }

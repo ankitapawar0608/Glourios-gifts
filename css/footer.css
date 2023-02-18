@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap');
 footer{
-    background-color: black;
+    background-color: #576a88;
 }
 .footer-container-main{
     color: #ffffff;
@@ -19,7 +19,7 @@ footer{
     justify-content: space-around;
 }
 .footer-containers{
-    width: 400px;
+    width: 350px;
     margin: 20px;
     padding: 10px;
 
@@ -57,29 +57,80 @@ footer{
   color: #e6c1c9;
    transition: 0.05s;
 }
-.media-links{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-.media-link-img{
-    margin-left: 50px;
-    margin-right: 50px;
-    cursor: pointer;
-}
+
 .copyrigh-sction{
     text-align: center;
     color: #ffffff;
     font-family: 'Fragment Mono', monospace;
     padding-bottom: 10px;
+    font-size: 10px;
     
 }
-
-
-
+.media-section-container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.media-section-img{
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.media-img-yt:hover{
+    box-shadow: 0 0 5px 0 #ffffff ;
+    border-radius: 15px;
+}
+.media-img-insta:hover{
+    box-shadow: 0 0 5px 0 #ffffff ;
+    border-radius: 10px;
+}
+.media-img-git:hover{
+    box-shadow: 0 0 5px 0 #ffffff ;
+    border-radius: 100px;
+}
+.contributors-link-container-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #778bac;
+}
+.contributor-link-containers{
+    
+   
+}
+.contributer-head-title{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    background-color: #778bac;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.contributor-link-ghthub-logo{
+    height: 15px;
+}
+.contributer-link{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Fragment Mono', monospace;
+    color: #ffffff;
+    display: block;
+    align-items: center;
+}
+.contributer-link:hover{
+    text-shadow: 0 0 1px  #ffffff ;
+    color: #e6c1c9;
+     transition: 0.05s;
+  }
+.footer-link-img{
+    height: 15px;
+    margin-right: 10px;
+}
 @media only screen and (max-width: 968px) {
     .row{
         display: flex;
@@ -92,6 +143,13 @@ footer{
         margin: 10px;
         padding: 5px;
     
+    }
+    .contributors-link-container-main{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contributer-link{
+        margin: 10px;
     }
 
 }
