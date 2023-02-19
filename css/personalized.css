@@ -9,7 +9,7 @@
 
   background-color:;
   color:black;
-  height:430px;
+  height:440px;
   width: 320px; 
   margin:13px ;
   padding: 10px;
@@ -21,20 +21,14 @@
   font-size: 15px;
   
 }
-<<<<<<< HEAD
+
  .Personalized-Gift-container:hover{
   border-radius: 30px;
   transition: 0.1s;
-  box-shadow: 1px 1px 5px 4px #aa838b;
-=======
+  box-shadow: 1px 1px 5px 4px #aa838b;}
 
 
-.Personalized-Gift-container:hover{
-  border-radius: 30px;
-    transition: 0.5s;
-    box-shadow: 1px 1px 5px 4px #aa838b;
->>>>>>> 26ca9fbde8a3cbdd55978db801c66ed984759aad
-} 
+
 
 .gift-images{
     
