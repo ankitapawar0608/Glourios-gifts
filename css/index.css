@@ -13,6 +13,7 @@ body{
     margin-top: -2px;
     width: 1500px;
     font-family: 'Bree Serif', serif;
+    position: sticky;
     
 }
 body{
