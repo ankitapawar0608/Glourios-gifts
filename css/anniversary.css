@@ -1,0 +1,348 @@
+.anniversary-gifts-title{
+    position:relative;
+    display: block;
+    height: 50px;
+    top:120px;
+    margin-top: 50px;
+    text-align: center;
+    background-color:#FF597B;
+    color:whitesmoke;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.anniversary-display-card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+    padding: 60px;
+   
+    align-items: center; 
+    margin-top: 25px;
+    
+    height: 400px;
+    width: 340px;
+
+
+}
+.anniversary-container{
+    background-color: rgb(252, 232, 232);
+    height: 715px;
+    width: auto;
+    margin-top: 100px;
+
+    display:flex;
+    justify-content: row;
+    align-items: space-between;
+}
+.anniversary-container-2{
+    background-color: rgb(219, 241, 232);
+    height: 665px;
+    width: auto;
+    margin-top: 30px;
+    /* margin-bottom: 70px; */
+    display:flex;
+    justify-content: row;
+    align-items: space-between;
+}
+.anniversary-container-3{
+    background-color: rgb(255, 229, 193);
+    height: 665px;
+    width: auto;
+    margin-top: 30px;
+    /* margin-bottom: 70px; */
+    display:flex;
+    justify-content: row;
+    align-items: space-between;
+}
+.anniversary-container-4{
+    background-color: rgb(223, 223, 223);
+    height: 665px;
+    width: auto;
+    margin-top: 30px;
+    /* margin-bottom: 70px; */
+    display:flex;
+    justify-content: row;
+    align-items: space-between;
+}
+.anniversary-display-card-1{
+    background-color: #ffff;
+
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px gray;
+    border: 1px solid #dbd1d1;
+   
+    height: 600px;
+    width: 400px;
+    
+}
+.anniversary-display-card-2{
+    background-color: #ffff;
+    margin-top: 85px;
+    margin-left: 10px;
+    height: 600px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px gray;
+    border: 1px solid #dbd1d1;   
+}
+.anniversary-display-card-3{
+    background-color: #ffff;
+    margin-top: 85px;
+    margin-left: 10px;
+    height: 600px;
+    width: 390px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px gray;
+    border: 1px solid #dbd1d1; 
+}
+.anniversary-display-card-4{
+    background-color: #ffff;
+
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px gray;
+    border: 1px solid #dbd1d1;
+   margin-top: 30px;
+   margin-left: 50px;
+    height: 600px;
+    width: 400px;
+    
+}
+.anniversary-display-card-5{
+    background-color: #ffff;
+
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px gray;
+    border: 1px solid #dbd1d1;
+    margin-top: 30px;
+    margin-left: 10px;
+    height: 600px;
+    width: 400px;
+    
+}
+.anniversary-display-card-6{
+    background-color: #ffff;
+
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px gray;
+    border: 1px solid #dbd1d1;
+    margin-top: 30px;
+    margin-left: 10px;
+    height: 600px;
+    width: 400px;
+}
+.anniversary-display-card-7{
+    background-color: #ffff;
+
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px gray;
+    border: 1px solid #dbd1d1;
+    margin-top: 30px;
+    margin-left: 40px;
+    height: 600px;
+    width: 400px;
+}
+.anniversary-display-card-8{
+    background-color: #ffff;
+
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px gray;
+    border: 1px solid #dbd1d1;
+    margin-top: 30px;
+    margin-left: 10px;
+    height: 600px;
+    width: 400px;
+}
+.anniversary-display-card-9{
+    background-color: #ffff;
+
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px gray;
+    border: 1px solid #dbd1d1;
+    margin-top: 30px;
+    margin-left: 10px;
+    height: 600px;
+    width: 400px;
+}
+.anniversary-display-card-10{
+    background-color: #ffff;
+
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px gray;
+    border: 1px solid #dbd1d1;
+    margin-top: 30px;
+    margin-left: 40px;
+    height: 600px;
+    width: 400px;
+}
+.anniversary-display-card-11{
+    background-color: #ffff;
+
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px gray;
+    border: 1px solid #dbd1d1;
+    margin-top: 30px;
+    margin-left: 10px;
+    height: 600px;
+    width: 400px;
+}
+.anniversary-display-card-12{
+    background-color: #ffff;
+
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px gray;
+    border: 1px solid #dbd1d1;
+    margin-top: 30px;
+    margin-left: 10px;
+    height: 600px;
+    width: 400px;
+}
+.anniversary-display-card-1:hover{
+    border: 3px solid #550f2b;
+    box-shadow: 0 0 20px 0 #f8dbfc;
+    transition: 0.05s;
+}
+.anniversary-display-card-2:hover{
+    border: 3px solid #a9f90a;
+    box-shadow: 0 0 20px 0 #f8dbfc;
+    transition: 0.05s;
+}
+.anniversary-display-card-3:hover{
+    border: 3px solid #f96c07;
+    box-shadow: 0 0 20px 0 #f8dbfc;
+    transition: 0.05s;
+}
+.anniversary-display-card-4:hover{
+    border: 3px solid #f70008;
+    box-shadow: 0 0 20px 0 #f8dbfc;
+    transition: 0.05s;
+}
+.anniversary-display-card-5:hover{
+    border: 3px solid #edf600;
+    box-shadow: 0 0 20px 0 #f8dbfc;
+    transition: 0.05s;
+}
+.anniversary-display-card-6:hover{
+    border: 3px solid #00ff1a;
+    box-shadow: 0 0 20px 0 #f8dbfc;
+    transition: 0.05s;
+}
+.anniversary-display-card-7:hover{
+    border: 3px solid #e86aa9;
+    box-shadow: 0 0 20px 0 #f8dbfc;
+    transition: 0.05s;
+}
+.anniversary-display-card-8:hover{
+    border: 3px solid #05eaff;
+    box-shadow: 0 0 20px 0 #f8dbfc;
+    transition: 0.05s;
+}
+.anniversary-display-card-9:hover{
+    border: 3px solid #ffc400;
+    box-shadow: 0 0 20px 0 #f8dbfc;
+    transition: 0.05s;
+}
+.anniversary-display-card-10:hover{
+    border: 3px solid #6b1e05;
+    box-shadow: 0 0 20px 0 #f8dbfc;
+    transition: 0.05s;
+}
+.anniversary-display-card-11:hover{
+    border: 3px solid #014d03;
+    box-shadow: 0 0 20px 0 #f8dbfc;
+    transition: 0.05s;
+}
+.anniversary-display-card-12:hover{
+    border: 3px solid #66688f;
+    box-shadow: 0 0 20px 0 #f8dbfc;
+    transition: 0.05s;
+}
+.anniversary-gifts-title:hover{
+    color: #ffd519;
+    background-color:violet;
+
+}
+.anniversary-container:hover{
+    background-color: rgb(255, 231, 185);
+}
+.anniversary-container-2:hover{
+   background-color: rgb(255, 255, 177);
+}
+.anniversary-container-3:hover{
+    background-color: #e0ffa1;
+}
+.anniversary-container-4:hover{
+    background-color: rgb(199, 228, 240);
+}
+.anniversary-display-card-img{
+    height: 350px;
+    width: 400px;
+    border-radius: 10px;
+}
+.anniversary-display-card-img-3{
+    height: 350px;
+    width: 387px;
+    border-radius: 15px;
+    
+}
+.anniversary-display-card-img-6{
+    height: 350px;
+    width: 387px;
+    border-radius: 15px;
+    
+}
+
+.anniversary-display-card-title{
+    text-align: center;
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.anniversary-display-card-button{
+     margin: 20px;
+     margin-left: 100px;
+     text-align: center;
+     padding: 10px;
+     width:200px;
+     font-family: cursive;
+     border: 1px solid whitesmoke;
+     padding: 10px;
+     background-color: #FF597B;
+     border-radius: 10px;
+    
+}
+.anniversary-display-card-button-3{
+    margin-top: 50px;
+     margin-left: 100px;
+     text-align: center;
+     padding: 10px;
+     width:200px;
+     font-family: cursive;
+     border: 1px solid whitesmoke;
+     padding: 10px;
+     background-color: #FF597B;
+     border-radius: 10px;
+}
+.anniversary-display-card-url{
+    color:white;
+    text-decoration: none;
+    font-size:20px;
+}
+.anniversary-display-card-button:hover{
+    background-color: #a51f3a;
+    border: 1px solid #e24697;
+    box-shadow:  0 0 10px 0 #f8dbfc;
+    
+}
+.anniversary-display-card-button-3:hover{
+    background-color: #a51f3a;
+    border: 1px solid #e24697;
+    box-shadow:  0 0 10px 0 #f8dbfc;
+}
+.anniversary-desc{
+ text-align: center;
+ font-size: 12px;
+
+}
+

@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap');
 footer{
-    background-color: #576a88;
+    /* background-color: #576a88; */
+    background-color: black;
+    margin-top: 10px;
 }
 .footer-container-main{
     color: #ffffff;
@@ -77,6 +79,19 @@ footer{
 .media-section-img{
     margin-left: 20px;
     margin-right: 20px;
+    cursor: pointer;
+}
+.media-img-yt:hover{
+    box-shadow: 0 0 5px 0 #ffffff ;
+    border-radius: 15px;
+}
+.media-img-insta:hover{
+    box-shadow: 0 0 5px 0 #ffffff ;
+    border-radius: 10px;
+}
+.media-img-git:hover{
+    box-shadow: 0 0 5px 0 #ffffff ;
+    border-radius: 100px;
 }
 .contributors-link-container-main{
     display: flex;
@@ -114,6 +129,10 @@ footer{
     color: #e6c1c9;
      transition: 0.05s;
   }
+.footer-link-img{
+    height: 15px;
+    margin-right: 10px;
+}
 @media only screen and (max-width: 968px) {
     .row{
         display: flex;

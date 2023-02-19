@@ -1,8 +1,9 @@
-body{
-    background-color: ;
+body {
+    background-color: white;
+    margin: 0px;
 }
 
-#navbar{
+#navbar {
     display: flex;
     align-items: center;
     position: relative;
@@ -11,24 +12,31 @@ body{
     height: 70px;
     margin: -5px;
     margin-top: -2px;
-    
+    width: 1500px;
+    font-family: 'Bree Serif', serif;
+    position: sticky;
+
 }
-body{
+
+body {
     margin: 0;
 }
+
 #navbar-logo img {
     height: 59px;
     margin: 3px 6px;
     border-radius: 30px;
     margin-left: 50px;
+
 }
 
 h1 {
     color: white;
+
 }
 
- .search-box {
-    
+.search-box {
+
     position: relative;
 }
 
@@ -45,9 +53,11 @@ h1 {
     padding-right: 40px;
     text-align: center;
     margin-left: 100px;
+    font-family: 'Bree Serif', serif;
 
 }
-.nav-items{
+
+.nav-items {
     text-decoration: none;
     margin-left: 44px;
     padding: 5px;
@@ -55,41 +65,42 @@ h1 {
     padding-right: 18px;
     font-size: 25px;
     color: white;
-    
+    font-family: 'Bree Serif', serif;
+
+
 }
-.nav-items:hover{
+
+.nav-items:hover {
     background-color: #4d0000;
     border-radius: 20px;
-    color:  #ffe6e6 ;
+    color: #ffe6e6;
+    transition: all 0.4s ease 0s;
 }
-.nav-items-container{
+
+.nav-items-container {
     margin-left: 300px;
     width: 500px;
 }
 
-
-
-
 /* CATEGORIES SECTION */
 
 
+.categories-container {
 
-
-.categories-container{
-    
     height: 91px;
-    
-    margin-left: -10px;
+
+    margin-left: h;
     margin-top: 5px;
     margin-left: -5px;
     margin-right: -5px;
 
 }
-.categories-items-container{
+
+.categories-items-container {
     border: 1px solid #FF597B;
     background-color: #f2f2f2;
     border-radius: 5px;
-    position: absolute;
+    /* position: absolute; */
     height: 50px;
     padding-top: 21px;
     padding-bottom: 4px;
@@ -97,53 +108,273 @@ h1 {
     margin-left: 45px;
     margin-right: 100px;
     width: 1420px;
-    
+
 }
-.categories-items{
- 
+
+.categories-items {
+
     text-decoration: none;
-     background-color: ; 
-    margin-left: 80px;
+    background-color: h;
+    margin-left: 37px;
     /* padding-top: 22px; */
     padding: 5px;
     padding-left: 18px;
     padding-right: 20px;
     font-size: 25px;
-    color:black;
-
+    color: black;
+    font-family: 'Bree Serif', serif;
 }
 
-.categories-items:hover{
+.categories-items:hover {
     background-color: #FF597B;
     border-radius: 20px;
     color: #f2f2f2;
 }
 
+/* HOME SECTION */
 
-#home{
+#home {
     display: flex;
     flex-direction: column;
-    padding:3px 200px;
-    height: 658px;
+    padding: 3px 200px;
+    height: 600px;
     justify-content: center;
     align-items: center;
 
 }
 
-#home::before{
+#home::before {
     content: "";
     position: absolute;
-    background: url('./../images/katie-goertzen-6oAWnDGR4JY-unsplash\ \(1\).jpg') no-repeat center center/cover;
-    height: 530px;
-    top:180px;
-    left:0px;
+    background: url('./../images/banner5.jpg') no-repeat center center/cover;
+    height: 80vh;
+    top: 170px;
+    left: 0px;
     margin-left: 45px;
     margin-right: 100px;
     width: 1420px;
     z-index: -1;
-    opacity:1;
+    opacity: 1;
     border-radius: 5px;
 }
 
 
 
+.unique-gift-container-bigimage {
+
+    width: 1520px;
+    margin-top: 22px;
+}
+
+/* TRENDING GIFTS */
+
+.trending-gifts-container {
+    background-color: #f2f2f2;
+    height: 430px;
+}
+
+.trending-gifts-texts {
+    margin-left: 45px;
+    margin-top: 22px;
+    color: #FF597B;
+}
+
+.trending-gifts-text1 {
+    font-size: 40px;
+    font-family: 'Bree Serif', serif;
+
+}
+
+.trending-gifts-text2 {
+    font-size: 20px;
+    color: gray;
+    font-family: 'Bree Serif', serif;
+}
+
+.same-day-delivery {
+    margin-top: 22px;
+    margin-left: 45px;
+    font-size: 20px;
+    font-family: 'Bree Serif', serif;
+}
+
+.trending-gifts-img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 230px;
+
+}
+
+.trending-gifts-img {
+
+    height: 220px;
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.trending-gifts-text-container {
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 44px;
+
+}
+
+.trending-gifts-text-container-text {
+    margin-top: 0px;
+    height: 20px;
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+
+
+
+}
+
+
+/* ROMANTIC GIFTS SECTION */
+.romantic-gift-container {
+    margin-top: 5px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.romantic-gift-container-img1 {
+    margin-top: 30px;
+    height: 460px;
+    width: 700px;
+    border-radius: 20px 0 0 20px;
+
+}
+
+.romantic-gift-container-img2 {
+    margin-top: 30px;
+    height: 460px;
+    width: 700px;
+    border-radius: 0 20px 20px 0;
+
+}
+
+
+/* browse by personality */
+
+.trending-gifts-img-container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 230px;
+}
+
+.trending-gifts-img1 {
+    margin-top: 55px;
+    height: 260px;
+    width: 265px;
+    margin: 4px;
+    padding: 10px;
+    border-radius: 30px 30px 0 0;
+}
+
+.trending-gifts-img1:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.4s ease 0s;
+}
+
+/* CARDS */
+
+
+
+.trending-gifts-container2 {
+    margin-top: 20px;
+    background-color: #f2f2f2;
+    height: 350px;
+}
+
+.trending-gifts-img2 {
+    margin-top: 60px;
+    height: 300px;
+    width: 340px;
+    margin: 4px;
+    padding: 10px;
+
+}
+
+.trending-gifts-img-container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 230px;
+}
+
+
+/* CUSTOMER'S STORIES */
+
+.customers-stories-container {
+    height: 440px;
+    background-color: #52667a;
+    margin-bottom:2px;
+    /* background-color: #607d8b; */
+    /* width: 1495px; */
+}
+
+.customers-stories-texts {
+    margin-left: 49px;
+    margin-top: 19px;
+    /* position: absolute; */
+}
+
+.customers-stories-text1 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Bree Serif', serif;
+}
+
+.customers-stories-text2 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Bree Serif', serif;
+}
+
+.customers-stories-cards-container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 270px;
+    /* position: absolute; */
+    width: 1519px;
+
+
+}
+
+.customers-stories-cards {
+
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 270px;
+    width: 450px;
+    margin: 20px;
+    background-color: #f2f2f2;
+    border: 6px double black;
+    border-radius: 15px;
+
+}
+
+/* Occasions */
+
+.occasions-home-container{
+    height: 650px;
+    background-color: #52667a;
+
+
+}
