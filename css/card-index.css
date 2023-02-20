@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap');
+
 body{
     margin: 0;
     background-color: #f8f5f7;
@@ -34,7 +33,7 @@ body{
 .home-displal-card-title{
     text-align: center;
     margin: 10px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Bree Serif', serif;;
 }
 
 .home-displal-card-button{
@@ -44,14 +43,16 @@ body{
 .home-display-card-link{
     text-decoration: none;
     color: #000;
-    font-family: 'Fragment Mono', monospace;
+  
     border: 1px solid #ebebeb;
     padding: 5px;
     border-radius: 5px;
+    font-family: 'Bree Serif', serif;
 }
 .home-display-card-link:hover{
     border: 1px solid #cecece;
     box-shadow:  0 0 10px 0 #f8dbfc;
+    font-family: 'Bree Serif', serif;
     
 }
 

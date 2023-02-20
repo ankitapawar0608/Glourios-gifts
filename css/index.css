@@ -319,8 +319,9 @@ h1 {
 
 .customers-stories-container {
     height: 440px;
-    background-color: #52667a;
-    margin-bottom:2px;
+    /* position: absolute; */
+    background: url('./../images/th.jpg') no-repeat center center/cover;
+    margin-bottom: 2px;
     /* background-color: #607d8b; */
     /* width: 1495px; */
 }
@@ -328,7 +329,7 @@ h1 {
 .customers-stories-texts {
     margin-left: 49px;
     margin-top: 19px;
-    /* position: absolute; */
+    position: absolute;
 }
 
 .customers-stories-text1 {
@@ -349,7 +350,7 @@ h1 {
     flex-direction: row;
     justify-content: center;
     height: 270px;
-    /* position: absolute; */
+    position: absolute;
     width: 1519px;
 
 
@@ -364,17 +365,34 @@ h1 {
     height: 270px;
     width: 450px;
     margin: 20px;
-    background-color: #f2f2f2;
-    border: 6px double black;
+    background-color: #f1e8e8;
+    border: 6px double rgb(73, 59, 59);
     border-radius: 15px;
-
-}
-
-/* Occasions */
-
-.occasions-home-container{
-    height: 650px;
-    background-color: #52667a;
+    font-size: 22px;
+    font-family: 'Caveat', cursive;
 
 
 }
+
+.customers-stories-cards-img {
+    height: 65px;
+    margin: 31px 41px;
+    border-radius: 10px;
+    /* margin-left: 14px; */
+    position: absolute;
+    width: 70px;
+    border: 1px double grey;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
