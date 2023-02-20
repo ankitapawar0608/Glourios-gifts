@@ -23,7 +23,7 @@
 body{
   background-color: rgb(242, 238, 241);
 }
-h1{
+.head{
   color: darkblue;
   width: 1260px;
   height: 0px;
