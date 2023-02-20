@@ -7,6 +7,7 @@ body {
     background-color: #ffe6e6;
 }
 
+
 .image {
     height: 140px;
     width: 140px;
@@ -29,6 +30,7 @@ body {
     margin-top: 50px;
     background-color: aliceblue;
     color: #800000;
+    
 }
 
 .name {
@@ -86,6 +88,7 @@ body {
     font-size: 45px;
     font-weight: bolder;
     color: #800000;
+    font-family: 'Bree Serif', serif;
 }
 
 .info {
