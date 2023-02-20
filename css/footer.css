@@ -44,8 +44,11 @@ footer{
     align-items: center;
 }
 .footer-h1{
+    display: inline;
     font-family: 'Roboto', sans-serif;
-    padding-left: 2px;
+    padding-left: 2px; 
+    border-bottom:5px solid orange;
+
 }
 
 .footer-a{
