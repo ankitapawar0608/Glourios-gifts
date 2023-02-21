@@ -1,0 +1,36 @@
+.item{
+    background-color: #fec4cc;
+    height: 330px;
+    width: 300px;
+    margin: 5px;
+    border-radius: 10px;
+    padding-top: 5px;
+    border: 2px solid #9370DB;
+  
+
+}
+.conatiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-color: darkblue;
+    box-sizing: content-box;
+    text-align: center;
+    color: black;
+
+    
+}
+body{
+  background-color: rgb(242, 238, 241);
+}
+.head{
+  color: darkblue;
+  width: 1260px;
+  height: 0px;
+  background-color: #e8728a;
+  padding-left: 30px;
+  margin: 0px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+

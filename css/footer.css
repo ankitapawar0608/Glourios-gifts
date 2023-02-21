@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap');
 footer{
-    background-color: #576a88;
+    /* background-color: #576a88; */
+    background-color:#4f6280 ;
+    margin-top: 10px;
 }
 .footer-container-main{
     color: #ffffff;
@@ -44,8 +46,14 @@ footer{
     align-items: center;
 }
 .footer-h1{
+    /* display: inline;
     font-family: 'Roboto', sans-serif;
-    padding-left: 2px;
+    padding-left: 2px; 
+    border-bottom:5px solid orange; */
+
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 2px; 
 }
 
 .footer-a{

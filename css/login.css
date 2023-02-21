@@ -89,12 +89,15 @@ span{
 	text-transform: uppercase;
 	font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
-}
-.submit-btn:hover{
 	background-color:rgb(231, 31, 94);
     color:white;
     transition: 2s;
 }
+/* .submit-btn:hover{
+	background-color:rgb(231, 31, 94);
+    color:white;
+    transition: 2s;
+} */
 
 #login-forget-password{
 	font-size: 20px;

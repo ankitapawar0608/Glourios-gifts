@@ -56,14 +56,14 @@
     margin-top: 50px;
     border-radius: 15px;
     display: inline-block;
-    box-shadow: 3px 3px 10px 3px;
+    
     border: 2px solid #d20d5c;
 
 
 }
 
 .valentine-categories-card:hover {
-    box-shadow: 2px 8px 8px 2px #eb1850;
+    box-shadow: 2px 8px 8px 2px #ffc6d5;
    border:2px solid #d20d5c;
     border-radius: 17px;
   
@@ -134,7 +134,7 @@
     width:300px;
     height:220px;
     border-radius: 10px;
-    box-shadow: 2px 5px 20px rgba(48, 5, 5, 0.5);
+    box-shadow: 2px 5px 20px rgba(172, 150, 150, 0.5);
     transition: 0.3s;
     padding: 30px 50px;
     background:#fff;
