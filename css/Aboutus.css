@@ -40,12 +40,11 @@ margin-top:20px;
     height:40px;
     text-align: center;
     align-items: center;
-
     padding-top: 9px;
 }
 .social-contact li
 {
-    position: relative;
+    
     display: inline-block;
     list-style: none;
     margin-right: 20px;
@@ -61,8 +60,8 @@ margin-top:20px;
 }
 .social-contact li:hover
 {
-    background-color:#FF597B;
-    transition: 1s;
+    background-color:#ff66d9;
+    transition: 0.5s;
     box-shadow:1px 1px 6px 5px rgb(127 59 177);
     
 }
