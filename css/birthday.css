@@ -9,8 +9,8 @@
   margin-left: 55px;
   background-color:f;
   color:black;
-  height:440px;
-  width: 320px; 
+  height:450px;
+  width: 305px; 
   margin:13px ;
   padding: 10px;
   background-color: aliceblue;
@@ -24,7 +24,7 @@
 
  .birthday-Gift-container:hover{
   border-radius: 30px;
-  transition: 0.1s;
+  transition: 0.5s;
   box-shadow: 1px 1px 5px 4px #aa838b;}
 
 
@@ -60,6 +60,7 @@
         margin-left: 50px;
         margin-bottom: 300px;
         text-decoration: none;
+        transition: 0.5s;
         
       }
       .birthdaybutton:hover{

@@ -43,12 +43,11 @@ body {
     height: 40px;
     text-align: center;
     align-items: center;
-
     padding-top: 9px;
 }
-
-.social-contact li {
-    /* position: relative; */
+.social-contact li
+{
+    
     display: inline-block;
     list-style: none;
     margin-right: 20px;
@@ -62,12 +61,12 @@ body {
 
 
 }
-
-.social-contact li:hover {
-    background-color: #FF597B;
+.social-contact li:hover
+{
+    background-color:#FF597B;
     transition: 1s;
-    box-shadow: 1px 1px 6px 5px rgb(127 59 177);
-
+    box-shadow:1px 1px 6px 5px rgb(127 59 177);
+    
 }
 
 .card1:hover {
