@@ -87,6 +87,7 @@
     text-align: center;
     font-size: 30px;
     color: red;
+    font-family: 'Bree Serif', serif;
 }
 .button {
 
@@ -99,7 +100,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
 
-
+    font-family: 'Bree Serif', serif;
 }
 
 .button:hover {
@@ -117,6 +118,7 @@
     text-align: center;
     font-size: 15px;
     color: black;
+    font-family: 'Bree Serif', serif;
 }
 
 
